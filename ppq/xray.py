@@ -82,7 +82,7 @@ def draw_x_ray(length=300, redius1=20, redius2=23, redius3=113):
     draw_fan(aTurtle, start_pos=aTurtle.pos(), left=240, redius2=redius2, redius3=redius3)
     # 画圆
     aTurtle.color('yellow')
-    draw_circle(aTurtle, start_pos=(0, -redius2), size=23, color='yellow')
+    draw_circle(aTurtle, start_pos=(0, -redius2), size=redius2, color='yellow')
     aTurtle.color('black')
     draw_circle(aTurtle, start_pos=(0, -redius1), size=redius1, color='black')
     # 点击关闭窗口
