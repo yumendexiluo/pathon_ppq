@@ -1,3 +1,4 @@
+# 凯撒加密解密
 def encode(plaincode=None):
     encodeStr = ''
     for p in plaincode:

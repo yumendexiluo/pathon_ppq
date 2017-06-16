@@ -1,3 +1,4 @@
+# 0123四个数字组成不重复三位数
 array = list()
 for i in range(3, 0, -1):
     for j in range(3, -1, -1):

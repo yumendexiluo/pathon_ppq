@@ -1,3 +1,4 @@
+# 最大不重复字符串
 def max_lenth(str='abcdassasdefg'):
     pmax = ""
     for i in range(len(str)):
