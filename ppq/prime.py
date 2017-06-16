@@ -1,5 +1,7 @@
 # 素数判断
 def isPrime(n=0):
+    if n == 1 or n == 0:
+        return False
     for i in range(2, n):
         if n % i == 0:
             return False
@@ -7,7 +9,7 @@ def isPrime(n=0):
 
 
 def listPrime(maxNum=0):
-    for i in range(2,maxNum):
+    for i in range(2, maxNum):
         if isPrime(i):
             print(i, end=',')
 
