@@ -7,7 +7,7 @@ def isPrime(n=0):
 
 
 def listPrime(maxNum=0):
-    for i in range(maxNum):
+    for i in range(2,maxNum):
         if isPrime(i):
             print(i, end=',')
 
