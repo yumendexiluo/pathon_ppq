@@ -1,5 +1,5 @@
 # pathon_ppq
-CaesarCode=凯撒加密解密问题
+CaesarCode=凯撒加密解密问题\n
 excep=(7)输入判断，用异常处理进行判断
 maxLens=最长不重复字符串
 narcissusNumber=(5)水仙花数判断
