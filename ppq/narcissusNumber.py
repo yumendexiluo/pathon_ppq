@@ -4,8 +4,8 @@ def isNarcissus(num):
     bw = int(num / 100)
     sw = int((num % 100) / 10)
     gw = num % 10
-    # 求和
-    sum = (bw * bw * bw) + (sw * sw * sw) + (gw * gw * gw)
+    # 求和 **3代表求立方
+    sum = bw ** 3 + sw ** 3 + gw ** 3
     if sum == num:
         return True
     return False
