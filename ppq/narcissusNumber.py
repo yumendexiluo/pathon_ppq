@@ -1,9 +1,9 @@
 # 水仙花数
 def isNarcissus(num):
     # 分别计算百位十位个位数字
-    bw = int(num / 100)
-    sw = int((num % 100) / 10)
-    gw = num % 10
+    bw = int(str(i)[0])
+    sw = int(str(i)[1])
+    gw = int(str(i)[2])
     # 求和 **3代表求立方
     sum = bw ** 3 + sw ** 3 + gw ** 3
     if sum == num:
