@@ -10,4 +10,5 @@ rabbit=(3)兔子繁衍
 sum=(11)奇偶求和
 tian=画田字格
 xray=用turtle画X光标志
+dayup365=天天向上
 ```
