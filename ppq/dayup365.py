@@ -20,7 +20,7 @@ def daydayup(base=1.0, n=1.0):
 
 loop = eval(input("请输入n的个数:"))
 for i in range(loop):
-    n = random.random() * 9+1
+    n = random.random() * 9 + 1
     result1 = dayup(1.0, n)
     result2 = daydayup(1.0, n)
     print("差别为:" + str(result2 - result1))
